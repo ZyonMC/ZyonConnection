@@ -1,0 +1,27 @@
+plugins { id 'java' }
+
+group = 'dev.zyon'
+version = '1.0.0'
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(17) } }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url = 'https://libraries.minecraft.net/' } // brigadier (transitiva de bungeecord-api)
+}
+
+dependencies {
+    compileOnly 'net.md-5:bungeecord-api:1.20-R0.2'
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') { useJUnitPlatform() }
+
+// bungee.yml lleva la version del proyecto
+tasks.named('processResources') {
+    filesMatching('bungee.yml') { expand(version: project.version) }
+}

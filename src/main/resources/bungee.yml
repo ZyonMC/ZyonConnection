@@ -1,0 +1,8 @@
+name: ZyonConnection
+main: dev.zyon.connection.ZyonConnection
+version: ${version}
+author: Zyon
+description: Devuelve al jugador al ultimo servidor de cada modalidad.
+# El proxy descarga el driver al arrancar (BungeeCord 1.19+ / forks).
+libraries:
+  - org.mariadb.jdbc:mariadb-java-client:3.5.3

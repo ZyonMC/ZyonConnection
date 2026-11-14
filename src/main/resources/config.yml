@@ -1,0 +1,19 @@
+mariadb:
+  host: 127.0.0.1
+  port: 3306
+  database: zyon
+  user: root
+  password: ""
+
+# Cada grupo es una modalidad. Cuando un jugador ENTRA al grupo desde fuera
+# (lobby, otra modalidad o al unirse al proxy) se le envia al ultimo servidor
+# que uso en ese grupo.
+#   main    -> servidor de entrada: se usa si no hay dato o el ultimo esta caido.
+#   servers -> servidores de la modalidad (debe incluir el main).
+groups:
+  survival:
+    main: spawn
+    servers: [spawn, world, nether, end]
+  # skyblock:
+  #   main: sb1
+  #   servers: [sb1, sb2]
