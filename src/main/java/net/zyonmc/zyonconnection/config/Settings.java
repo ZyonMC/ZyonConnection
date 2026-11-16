@@ -1,6 +1,6 @@
-package dev.zyon.connection.config;
+package net.zyonmc.zyonconnection.config;
 
-import dev.zyon.connection.group.Group;
+import net.zyonmc.zyonconnection.group.Group;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;

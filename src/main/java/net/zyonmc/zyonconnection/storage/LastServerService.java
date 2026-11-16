@@ -1,4 +1,4 @@
-package dev.zyon.connection.storage;
+package net.zyonmc.zyonconnection.storage;
 
 import net.md_5.bungee.api.plugin.Plugin;
 

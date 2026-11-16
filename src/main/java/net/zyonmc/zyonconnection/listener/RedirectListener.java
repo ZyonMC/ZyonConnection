@@ -1,8 +1,8 @@
-package dev.zyon.connection.listener;
+package net.zyonmc.zyonconnection.listener;
 
-import dev.zyon.connection.group.GroupRegistry;
-import dev.zyon.connection.group.RedirectPolicy;
-import dev.zyon.connection.storage.LastServerService;
+import net.zyonmc.zyonconnection.group.GroupRegistry;
+import net.zyonmc.zyonconnection.group.RedirectPolicy;
+import net.zyonmc.zyonconnection.storage.LastServerService;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

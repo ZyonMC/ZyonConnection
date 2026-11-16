@@ -1,6 +1,6 @@
-package dev.zyon.connection.listener;
+package net.zyonmc.zyonconnection.listener;
 
-import dev.zyon.connection.storage.LastServerService;
+import net.zyonmc.zyonconnection.storage.LastServerService;
 import net.md_5.bungee.api.event.LoginEvent;
 import net.md_5.bungee.api.event.PlayerDisconnectEvent;
 import net.md_5.bungee.api.plugin.Listener;

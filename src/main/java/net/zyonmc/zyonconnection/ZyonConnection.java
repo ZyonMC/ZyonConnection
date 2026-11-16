@@ -1,11 +1,11 @@
-package dev.zyon.connection;
+package net.zyonmc.zyonconnection;
 
-import dev.zyon.connection.config.Settings;
-import dev.zyon.connection.group.GroupRegistry;
-import dev.zyon.connection.listener.RedirectListener;
-import dev.zyon.connection.listener.SessionListener;
-import dev.zyon.connection.storage.LastServerRepository;
-import dev.zyon.connection.storage.LastServerService;
+import net.zyonmc.zyonconnection.config.Settings;
+import net.zyonmc.zyonconnection.group.GroupRegistry;
+import net.zyonmc.zyonconnection.listener.RedirectListener;
+import net.zyonmc.zyonconnection.listener.SessionListener;
+import net.zyonmc.zyonconnection.storage.LastServerRepository;
+import net.zyonmc.zyonconnection.storage.LastServerService;
 import net.md_5.bungee.api.plugin.Plugin;
 
 /** Punto de entrada: carga la configuracion y conecta las piezas. */

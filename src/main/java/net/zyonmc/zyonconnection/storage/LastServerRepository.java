@@ -1,6 +1,6 @@
-package dev.zyon.connection.storage;
+package net.zyonmc.zyonconnection.storage;
 
-import dev.zyon.connection.config.DatabaseSettings;
+import net.zyonmc.zyonconnection.config.DatabaseSettings;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
