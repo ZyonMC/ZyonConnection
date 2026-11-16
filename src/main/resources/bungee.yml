@@ -1,5 +1,5 @@
 name: ZyonConnection
-main: dev.zyon.connection.ZyonConnection
+main: net.zyonmc.zyonconnection.ZyonConnection
 version: ${version}
 author: Zyon
 description: Devuelve al jugador al ultimo servidor de cada modalidad.
