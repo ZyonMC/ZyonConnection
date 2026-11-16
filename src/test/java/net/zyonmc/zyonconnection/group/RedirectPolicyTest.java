@@ -1,4 +1,4 @@
-package dev.zyon.connection.group;
+package net.zyonmc.zyonconnection.group;
 
 import org.junit.jupiter.api.Test;
 
